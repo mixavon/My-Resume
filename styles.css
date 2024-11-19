@@ -1,0 +1,44 @@
+/* General styles */
+  body {
+    margin: 0;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  /* Header styling */
+  .name {
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Container for the main layout */
+  .container {
+    display: flex; /* Enable Flexbox */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Navigation styling */
+  #navigation {
+    flex: 0 0 20%; /* Take up 40% of the width */
+    padding: 1rem;
+  }
+  
+  #navigation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #navigation li {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  /* About Me section styling */
+  .about-me {
+    flex: 1; /* Take up the remaining 60% */
+    padding: 2rem;
+  }
+  
