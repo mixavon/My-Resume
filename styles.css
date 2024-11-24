@@ -1,3 +1,41 @@
-/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Two columns: navbar (200px wide), content (remaining space) */
+    grid-template-rows: auto; /* Adjust rows automatically */
+    gap: 50px;
+    width: 80%; /* Set container width */
+    height: 80vh; /* Set container height */
+    background: #fff;
+
+    background-color: inherit;
+  }
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
   
+  /* Main content styles */
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  } 
