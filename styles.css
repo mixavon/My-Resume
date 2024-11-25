@@ -36,6 +36,7 @@ body {
 
 .content {
   margin-left: 50px;
+  min-width: 300px;
   width: 100%;
   padding: 30px;
   border: solid 2px;
