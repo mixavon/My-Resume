@@ -68,6 +68,12 @@ footer {
     color: inherit; /* Keep the current color */
 }
 
-.introduction p {
-  padding-top: 20px;
+.introduction p,
+.content p {
+  padding: 20px 0px;
+}
+
+.edu ul {
+  padding-left: 30px;
+  padding-bottom: 20px;
 }
