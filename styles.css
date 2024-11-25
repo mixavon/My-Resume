@@ -28,17 +28,16 @@ body {
 }
 
 .navbar {
-  background-color: #333;
   min-width: 150px;
   padding: 30px;
-  color:#f0f0f0;
+  border: solid 2px;
   border-radius: 30px;
 }
 
 .content {
-  background-color: gray;
   margin-left: 50px;
   width: 100%;
   padding: 30px;
+  border: solid 2px;
   border-radius: 30px;
 }
