@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   background-color: #f0f0f0;
   flex-wrap: wrap;
+  font-family: "Nunito";
 }
 
 .name h1 {
@@ -21,16 +22,24 @@ body {
 .main-container {
   display: flex;
   width: 100%;
-  min-height: 100vh;
   /*background-color:antiquewhite;*/
   margin: 0px 50px 50px 50px;
   padding: 50px;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center; 
+  padding: 0 0;
 }
 
 .navbar {
   min-width: 150px;
   padding: 30px;
-  border: solid 2px;
+  /*border: solid 2px;*/
   border-radius: 30px;
 }
 
@@ -38,7 +47,19 @@ body {
   margin-left: 50px;
   min-width: 300px;
   width: 100%;
+  max-width: 650px;
   padding: 30px;
-  border: solid 2px;
+  /*border: solid 2px;*/
   border-radius: 30px;
+}
+
+.navbar li {
+  padding: 20px 0px;
+  list-style-type: none;
+  font-weight: 700;
+  text-transform:uppercase
+}
+
+.introduction p {
+  padding-top: 20px;
 }
