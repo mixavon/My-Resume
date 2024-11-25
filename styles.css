@@ -37,7 +37,7 @@ footer {
 }
 
 .navbar {
-  min-width: 150px;
+  min-width: 170px;
   padding: 30px;
   /*border: solid 2px;*/
   border-radius: 30px;
@@ -48,7 +48,7 @@ footer {
   min-width: 300px;
   width: 100%;
   max-width: 650px;
-  padding: 30px;
+  padding: 0px 30px;
   /*border: solid 2px;*/
   border-radius: 30px;
 }
@@ -57,7 +57,15 @@ footer {
   padding: 20px 0px;
   list-style-type: none;
   font-weight: 700;
-  text-transform:uppercase
+  text-transform: uppercase;
+}
+
+/* Prevent color change */
+  a:link,  /* Normal unvisited link */
+  a:visited, /* Visited link */
+  a { 
+    text-decoration: none; 
+    color: inherit; /* Keep the current color */
 }
 
 .introduction p {
