@@ -77,3 +77,15 @@ footer {
   padding-left: 30px;
   padding-bottom: 20px;
 }
+
+.my-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.my-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 30px;
+}
