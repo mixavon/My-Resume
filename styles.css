@@ -48,7 +48,7 @@ footer {
 
 .content {
   min-width: 300px;
-  max-width: 650px;
+  width: 650px;
   padding: 0px 30px;
   /*border: solid 2px;*/
   border-radius: 30px;
