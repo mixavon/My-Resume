@@ -103,7 +103,22 @@ footer {
   padding-left: 30px;
 }
 
+.experience h2 {
+  padding-bottom: 20px; 
+}
+
 .jobs h3 {
   padding-top: 20px;
+}
+
+.edu,
+.introduction,
+.jobs {
+  border: solid 1px gray;
+  border-radius: 30px;
+  margin: 20px 0px;
+  padding: 20px;
+  box-shadow: 5px 5px gray;
+  background-color: rgb(223, 215, 215);
 }
 
