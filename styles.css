@@ -19,6 +19,7 @@ body {
   margin: 50px 50px 0px 50px;
   font-size: 2.5rem;
   align-items: center;
+  text-align: center;
 }
 
 .main-container {
@@ -46,7 +47,6 @@ footer {
 }
 
 .content {
-  margin-left: 50px;
   min-width: 300px;
   max-width: 650px;
   padding: 0px 30px;
@@ -131,6 +131,7 @@ footer {
 @media (max-width: 768px) {
   .main-container {
     flex-direction: column;
+    display: flex;
   }
 
   .navbar {
@@ -140,6 +141,12 @@ footer {
 
   .navbar ul {
     padding-left: 30px;
+  }
+
+  .contact {
+    margin: 0px;
+    justify-content: center;
+    align-items: center; 
   }
 }
 
