@@ -95,7 +95,7 @@ footer {
   width: 150px;
   height: auto;
   border-radius: 40px;
-  box-shadow: 5px 5px 5px #5f5c6d;
+  box-shadow: 5px 5px 5px #796a53;
 }
 
 /*This section is for the experience page*/
@@ -119,8 +119,8 @@ footer {
   border-radius: 30px;
   margin: 20px 0px;
   padding: 20px;
-  box-shadow: 5px 5px #5f5c6d;
-  background-color: #aca9bb;
+  box-shadow: 5px 5px #68573e;
+  background-color: #c2b3a5;
 }
 
 .contact p {
