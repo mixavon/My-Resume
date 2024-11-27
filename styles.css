@@ -18,6 +18,7 @@ body {
 .name h1 {
   margin: 50px 50px 0px 50px;
   font-size: 2.5rem;
+  color: gray;
 }
 
 .main-container {
@@ -38,7 +39,7 @@ footer {
 }
 
 .navbar {
-  min-width: 170px;
+  min-width: 180px;
   padding: 30px;
   /*border: solid 2px;*/
   border-radius: 30px;
@@ -95,7 +96,7 @@ footer {
   width: 150px;
   height: auto;
   border-radius: 40px;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px #5f5c6d;
 }
 
 /*This section is for the experience page*/
@@ -114,11 +115,11 @@ footer {
 .edu,
 .introduction,
 .jobs {
-  border: solid 1px gray;
+  border: solid 1px #5f5c6d;
   border-radius: 30px;
   margin: 20px 0px;
   padding: 20px;
-  box-shadow: 5px 5px gray;
-  background-color: rgb(223, 215, 215);
+  box-shadow: 5px 5px #5f5c6d;
+  background-color: #aca9bb;
 }
 
